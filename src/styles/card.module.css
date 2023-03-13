@@ -1,0 +1,40 @@
+:root {
+  --radius: 10px;
+  --padding: 1rem;
+}
+.container {
+  height: 30rem;
+  width: 18rem;
+  background-color: white;
+  padding: var(--padding);
+  border-radius: calc(var(--radius) + var(--padding));
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  box-shadow: 3px 5px 20px #cbd7e5;
+  row-gap: 1.5rem;
+}
+.img {
+  height: 60%;
+  width: 100%;
+  border-radius: var(--radius);
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  row-gap: 1rem;
+  padding-inline: 0.9rem;
+}
+.title {
+  font-weight: 750;
+  color: #262f43;
+  font-size: 21px;
+}
+
+.content {
+  color: gray;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.8;
+}
